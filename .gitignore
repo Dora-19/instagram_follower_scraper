@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.session-*
+batch_results.json
+runs/
