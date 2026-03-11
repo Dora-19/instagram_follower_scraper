@@ -3,4 +3,3 @@ __pycache__/
 .env
 .session-*
 batch_results.json
-runs/

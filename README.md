@@ -35,22 +35,6 @@ Batch lookup:
 python3 -m insta_bot.cli batch --input usernames_example.txt --output batch_results.json
 ```
 
-Show archived runs:
-```bash
-python3 -m insta_bot.cli runs --limit 20
-```
-
-Each batch run is archived automatically under `runs/<run_id>/`:
-- `usernames.txt`: exact input snapshot used in that run
-- `results.json`: run output payload
-- `run_meta.json`: parameters + summary
-- `runs/index.jsonl`: append-only history for all runs
-
-Username validation:
-- Only `A-Z`, `a-z`, `0-9`, `.` and `_` are accepted
-- Max length: 30
-- Invalid usernames are skipped and stored as failed rows in output JSON
-
 ## High Volume Workflow (e.g. 1000 usernames)
 1. Prepare `usernames_1000.txt` with one username per line.
 2. Start conservatively:

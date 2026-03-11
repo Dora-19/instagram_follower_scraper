@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from pathlib import Path
-from threading import Lock
 
 import instaloader
 
@@ -21,7 +20,6 @@ class InstaloaderProvider(FollowerProvider):
         self._login_password = login_password
         self._session_file = session_file
         self._is_authenticated = False
-        self._lock = Lock()
 
     def _authenticate_if_needed(self) -> None:
         if self._is_authenticated:
@@ -51,13 +49,12 @@ class InstaloaderProvider(FollowerProvider):
             raise ProviderError(f"Instagram login failed: {exc}") from exc
 
     def get_follower_count(self, username: str) -> int:
-        with self._lock:
-            self._authenticate_if_needed()
-            try:
-                profile = instaloader.Profile.from_username(self._loader.context, username)
-                return int(profile.followers)
-            except Exception as exc:
-                raise ProviderError(f"Failed to fetch follower count for {username}: {exc}") from exc
+        self._authenticate_if_needed()
+        try:
+            profile = instaloader.Profile.from_username(self._loader.context, username)
+            return int(profile.followers)
+        except Exception as exc:
+            raise ProviderError(f"Failed to fetch follower count for {username}: {exc}") from exc
 
     def close(self) -> None:
         return None

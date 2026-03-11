@@ -13,7 +13,6 @@ class AppConfig:
     requests_per_minute: int = 30
     max_retries: int = 3
     backoff_base_seconds: float = 2.0
-    runs_root: str = "runs"
 
     @classmethod
     def from_env(cls) -> "AppConfig":
@@ -26,13 +25,8 @@ class AppConfig:
             requests_per_minute=int(os.getenv("REQUESTS_PER_MINUTE", "30")),
             max_retries=int(os.getenv("MAX_RETRIES", "3")),
             backoff_base_seconds=float(os.getenv("BACKOFF_BASE_SECONDS", "2")),
-            runs_root=os.getenv("RUNS_ROOT", "runs"),
         )
 
     @property
     def session_path(self) -> Path:
         return Path(self.session_file).expanduser().resolve()
-
-    @property
-    def runs_root_path(self) -> Path:
-        return Path(self.runs_root).expanduser().resolve()
