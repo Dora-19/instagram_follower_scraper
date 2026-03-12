@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+from dataclasses import replace
 from pathlib import Path
 
 from insta_bot.config import AppConfig
@@ -77,7 +78,9 @@ async def run_batch_mode(input_file: Path, output_file: Path, config: AppConfig)
         print("ERROR: input file is empty")
         return 1
 
-    service = build_service(config)
+    # Force no app-level retries in batch mode to reduce retry spam under rate limiting.
+    batch_config = replace(config, max_retries=0)
+    service = build_service(batch_config)
     results = await run_batch(
         usernames=usernames,
         service=service,

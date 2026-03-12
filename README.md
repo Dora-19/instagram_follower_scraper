@@ -35,6 +35,13 @@ Batch lookup:
 python3 -m insta_bot.cli batch --input usernames_example.txt --output batch_results.json
 ```
 
+Browserbase provider (single example):
+```bash
+export PROVIDER=browserbase
+export BROWSERBASE_CDP_URL='wss://connect.browserbase.com?apiKey=YOUR_KEY&projectId=YOUR_PROJECT_ID'
+python3 -m insta_bot.cli single shakira
+```
+
 ## High Volume Workflow (e.g. 1000 usernames)
 1. Prepare `usernames_1000.txt` with one username per line.
 2. Start conservatively:

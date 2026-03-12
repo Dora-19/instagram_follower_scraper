@@ -1,0 +1,82 @@
+[
+  {
+    "username": "kendalljenner",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 3307,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=kendalljenner: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=kendalljenner"
+  },
+  {
+    "username": "taylorswift",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 1812,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=taylorswift: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=taylorswift"
+  },
+  {
+    "username": "jlo",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 57506,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=jlo: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=jlo"
+  },
+  {
+    "username": "virat.kohli",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 2209,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=virat.kohli: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=virat.kohli"
+  },
+  {
+    "username": "nickiminaj",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 57441,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=nickiminaj: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=nickiminaj"
+  },
+  {
+    "username": "kourtneykardash",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 2442,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=kourtneykardash: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=kourtneykardash"
+  },
+  {
+    "username": "mileycyrus",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 57944,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=mileycyrus: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=mileycyrus"
+  },
+  {
+    "username": "neymarjr",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 1133,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=neymarjr: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=neymarjr"
+  },
+  {
+    "username": "katyperry",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 57427,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=katyperry: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=katyperry"
+  },
+  {
+    "username": "zendaya",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 4482,
+    "error": "JSON Query to api/v1/users/web_profile_info/?username=zendaya: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when accessing https://i.instagram.com/api/v1/users/web_profile_info/?username=zendaya"
+  }
+]

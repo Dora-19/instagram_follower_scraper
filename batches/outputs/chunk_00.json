@@ -1,0 +1,82 @@
+[
+  {
+    "username": "cristiano",
+    "followers": 672100567,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1603,
+    "error": null
+  },
+  {
+    "username": "leomessi",
+    "followers": 511799212,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 5257,
+    "error": null
+  },
+  {
+    "username": "selenagomez",
+    "followers": 415370073,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 57127,
+    "error": null
+  },
+  {
+    "username": "kyliejenner",
+    "followers": 390946618,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2414,
+    "error": null
+  },
+  {
+    "username": "therock",
+    "followers": 390613364,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 55626,
+    "error": null
+  },
+  {
+    "username": "arianagrande",
+    "followers": 371858893,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3981,
+    "error": null
+  },
+  {
+    "username": "kimkardashian",
+    "followers": 353295515,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 57145,
+    "error": null
+  },
+  {
+    "username": "beyonce",
+    "followers": 307860097,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 4621,
+    "error": null
+  },
+  {
+    "username": "khloekardashian",
+    "followers": 299224250,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 57821,
+    "error": null
+  },
+  {
+    "username": "justinbieber",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 5241,
+    "error": "Failed to fetch follower count for justinbieber: JSON Query to web/search/topsearch/: 401 Unauthorized - \"fail\" status, message \"Server Error\" when accessing https://www.instagram.com/web/search/topsearch/?context=blended&query=justinbieber&include_reel=False&__a=1"
+  }
+]

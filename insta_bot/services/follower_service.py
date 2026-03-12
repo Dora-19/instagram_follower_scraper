@@ -1,11 +1,10 @@
 from __future__ import annotations
 
 import asyncio
-import random
 import time
 
 from insta_bot.domain import FollowerResult
-from insta_bot.errors import AppError
+from insta_bot.errors import AppError, RateLimitError
 from insta_bot.infra.rate_limiter import SlidingWindowRateLimiter
 from insta_bot.providers.base import FollowerProvider
 
@@ -41,13 +40,22 @@ class FollowerCountService:
                 )
             except AppError as exc:
                 last_error = str(exc)
+                if isinstance(exc, RateLimitError):
+                    elapsed_ms = int((time.monotonic() - started) * 1000)
+                    return FollowerResult(
+                        username=username,
+                        followers=None,
+                        success=False,
+                        attempts=attempt,
+                        elapsed_ms=elapsed_ms,
+                        error=last_error,
+                    )
             except Exception as exc:
                 last_error = f"Unexpected error: {exc}"
 
             if attempt <= self._max_retries:
                 backoff = self._backoff_base_seconds * (2 ** (attempt - 1))
-                jitter = random.uniform(0, 0.2 * backoff)
-                await asyncio.sleep(backoff + jitter)
+                await asyncio.sleep(backoff)
 
         elapsed_ms = int((time.monotonic() - started) * 1000)
         return FollowerResult(

@@ -4,7 +4,7 @@ from pathlib import Path
 
 import instaloader
 
-from insta_bot.errors import ConfigurationError, ProviderError
+from insta_bot.errors import ConfigurationError, ProviderError, RateLimitError
 from insta_bot.providers.base import FollowerProvider
 
 
@@ -15,7 +15,7 @@ class InstaloaderProvider(FollowerProvider):
         login_password: str,
         session_file: Path,
     ) -> None:
-        self._loader = instaloader.Instaloader()
+        self._loader = instaloader.Instaloader(max_connection_attempts=1)
         self._login_username = login_username
         self._login_password = login_password
         self._session_file = session_file
@@ -54,6 +54,9 @@ class InstaloaderProvider(FollowerProvider):
             profile = instaloader.Profile.from_username(self._loader.context, username)
             return int(profile.followers)
         except Exception as exc:
+            message = str(exc)
+            if "Please wait a few minutes before you try again." in message:
+                raise RateLimitError(message) from exc
             raise ProviderError(f"Failed to fetch follower count for {username}: {exc}") from exc
 
     def close(self) -> None:
