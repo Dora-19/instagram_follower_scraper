@@ -39,6 +39,20 @@ Browserbase provider (single example):
 ```bash
 export PROVIDER=browserbase
 export BROWSERBASE_CDP_URL='wss://connect.browserbase.com?apiKey=YOUR_KEY&projectId=YOUR_PROJECT_ID'
+python3 -m insta_bot.cli browserbase-login
+python3 -m insta_bot.cli single shakira
+```
+
+Browserbase auth persistence:
+- Set `BROWSERBASE_STORAGE_STATE=.browserbase_state.json`
+- Run `browserbase-login` once to save auth state
+- Next runs reuse that state automatically
+
+Bright Data provider (single example):
+```bash
+export PROVIDER=brightdata
+export BRIGHTDATA_CDP_URL='wss://brd-customer-<id>-zone-<zone>:<password>@brd.superproxy.io:9222'
+python3 -m insta_bot.cli brightdata-login
 python3 -m insta_bot.cli single shakira
 ```
 

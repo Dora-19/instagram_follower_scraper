@@ -9,6 +9,8 @@ from pathlib import Path
 from insta_bot.config import AppConfig
 from insta_bot.errors import AppError
 from insta_bot.infra.rate_limiter import SlidingWindowRateLimiter
+from insta_bot.providers.brightdata_provider import BrightDataProvider
+from insta_bot.providers.browserbase_provider import BrowserbaseProvider
 from insta_bot.providers.factory import create_provider
 from insta_bot.services.batch_workflow import run_batch
 from insta_bot.services.follower_service import FollowerCountService
@@ -36,6 +38,15 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=Path("batch_results.json"),
         help="Output JSON file path",
+    )
+
+    subparsers.add_parser(
+        "browserbase-login",
+        help="Open Instagram login on Browserbase and save storage_state file",
+    )
+    subparsers.add_parser(
+        "brightdata-login",
+        help="Open Instagram login on Bright Data browser and save storage_state file",
     )
 
     return parser
@@ -116,6 +127,28 @@ def main() -> int:
 
         if args.command == "batch":
             return asyncio.run(run_batch_mode(args.input, args.output, config))
+
+        if args.command == "browserbase-login":
+            provider = BrowserbaseProvider(
+                cdp_url=config.browserbase_cdp_url,
+                profile_url_template=config.browserbase_profile_url_template,
+                timeout_ms=config.browserbase_timeout_ms,
+                storage_state_path=config.browserbase_storage_state_path,
+            )
+            provider.bootstrap_login_state()
+            provider.close()
+            return 0
+
+        if args.command == "brightdata-login":
+            provider = BrightDataProvider(
+                cdp_url=config.brightdata_cdp_url,
+                profile_url_template=config.brightdata_profile_url_template,
+                timeout_ms=config.brightdata_timeout_ms,
+                storage_state_path=config.brightdata_storage_state_path,
+            )
+            provider.bootstrap_login_state()
+            provider.close()
+            return 0
     except AppError as exc:
         print(f"ERROR: {exc}")
         return 1

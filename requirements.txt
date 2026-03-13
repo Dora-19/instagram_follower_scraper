@@ -1,2 +1,6 @@
 instaloader>=4.14
 playwright>=1.50
+requests>=2.32
+beautifulsoup4>=4.12
+curl-cffi>=0.7
+python-dotenv>=1.0

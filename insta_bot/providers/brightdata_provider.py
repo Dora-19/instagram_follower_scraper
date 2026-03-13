@@ -8,7 +8,7 @@ from insta_bot.errors import ConfigurationError, ProviderError, RateLimitError
 from insta_bot.providers.base import FollowerProvider
 
 
-class BrowserbaseProvider(FollowerProvider):
+class BrightDataProvider(FollowerProvider):
     def __init__(
         self,
         cdp_url: str,
@@ -17,7 +17,7 @@ class BrowserbaseProvider(FollowerProvider):
         storage_state_path: Path | None = None,
     ) -> None:
         if not cdp_url:
-            raise ConfigurationError("BROWSERBASE_CDP_URL cannot be empty for browserbase provider.")
+            raise ConfigurationError("BRIGHTDATA_CDP_URL cannot be empty for brightdata provider.")
 
         self._cdp_url = cdp_url
         self._profile_url_template = profile_url_template
@@ -51,7 +51,7 @@ class BrowserbaseProvider(FollowerProvider):
             self._context = self._browser.new_context(storage_state=storage_state_arg)
         except Exception as exc:
             self.close()
-            raise ProviderError(f"Failed to connect Browserbase CDP: {exc}") from exc
+            raise ProviderError(f"Failed to connect Bright Data CDP: {exc}") from exc
 
     def bootstrap_login_state(self) -> None:
         with self._lock:
@@ -68,13 +68,13 @@ class BrowserbaseProvider(FollowerProvider):
                 input()
 
                 if self._storage_state_path is None:
-                    raise ConfigurationError("BROWSERBASE_STORAGE_STATE is not configured.")
+                    raise ConfigurationError("BRIGHTDATA_STORAGE_STATE is not configured.")
 
                 self._storage_state_path.parent.mkdir(parents=True, exist_ok=True)
                 self._context.storage_state(path=str(self._storage_state_path))
                 print(f"Saved storage state: {self._storage_state_path}")
             except Exception as exc:
-                raise ProviderError(f"Failed to bootstrap Browserbase login state: {exc}") from exc
+                raise ProviderError(f"Failed to bootstrap Bright Data login state: {exc}") from exc
             finally:
                 if page is not None:
                     page.close()
@@ -136,7 +136,7 @@ class BrowserbaseProvider(FollowerProvider):
                 if "/accounts/login" in current_url:
                     raise ProviderError(
                         "Instagram login wall detected. Refresh auth state with: "
-                        "python3 -m insta_bot.cli browserbase-login"
+                        "python3 -m insta_bot.cli brightdata-login"
                     )
 
                 return self._extract_follower_count(html)

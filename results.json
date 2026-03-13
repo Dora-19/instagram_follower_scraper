@@ -1,0 +1,794 @@
+[
+  {
+    "username": "cristiano",
+    "followers": 672122086,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2446,
+    "error": null
+  },
+  {
+    "username": "leomessi",
+    "followers": 511817986,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2432,
+    "error": null
+  },
+  {
+    "username": "selenagomez",
+    "followers": 415346883,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2621,
+    "error": null
+  },
+  {
+    "username": "kyliejenner",
+    "followers": 390906514,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2480,
+    "error": null
+  },
+  {
+    "username": "therock",
+    "followers": 390618378,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2447,
+    "error": null
+  },
+  {
+    "username": "arianagrande",
+    "followers": 371826534,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2408,
+    "error": null
+  },
+  {
+    "username": "kimkardashian",
+    "followers": 353272629,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2467,
+    "error": null
+  },
+  {
+    "username": "beyonce",
+    "followers": 307836131,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2442,
+    "error": null
+  },
+  {
+    "username": "khloekardashian",
+    "followers": 299211681,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2470,
+    "error": null
+  },
+  {
+    "username": "justinbieber",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 618,
+    "error": "@justinbieber not found on Social Blade (404)"
+  },
+  {
+    "username": "kendalljenner",
+    "followers": 284589051,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2589,
+    "error": null
+  },
+  {
+    "username": "taylorswift",
+    "followers": 280615774,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2451,
+    "error": null
+  },
+  {
+    "username": "jlo",
+    "followers": 246084586,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2600,
+    "error": null
+  },
+  {
+    "username": "virat.kohli",
+    "followers": 275737486,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2479,
+    "error": null
+  },
+  {
+    "username": "nickiminaj",
+    "followers": 223683092,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2479,
+    "error": null
+  },
+  {
+    "username": "kourtneykardash",
+    "followers": 215392894,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2460,
+    "error": null
+  },
+  {
+    "username": "mileycyrus",
+    "followers": 210860612,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2468,
+    "error": null
+  },
+  {
+    "username": "neymarjr",
+    "followers": 234303510,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2450,
+    "error": null
+  },
+  {
+    "username": "katyperry",
+    "followers": 201108654,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2349,
+    "error": null
+  },
+  {
+    "username": "zendaya",
+    "followers": 176191654,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2444,
+    "error": null
+  },
+  {
+    "username": "kevinhart4real",
+    "followers": 176279293,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2671,
+    "error": null
+  },
+  {
+    "username": "iamcardib",
+    "followers": 164294652,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2500,
+    "error": null
+  },
+  {
+    "username": "kingjames",
+    "followers": 157224812,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2834,
+    "error": null
+  },
+  {
+    "username": "ddlovato",
+    "followers": 152207395,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2590,
+    "error": null
+  },
+  {
+    "username": "rihanna",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 585,
+    "error": "@rihanna not found on Social Blade (404)"
+  },
+  {
+    "username": "theellenshow",
+    "followers": 0,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2312,
+    "error": null
+  },
+  {
+    "username": "champagnepapi",
+    "followers": 141784435,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2511,
+    "error": null
+  },
+  {
+    "username": "billieeilish",
+    "followers": 125257983,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2494,
+    "error": null
+  },
+  {
+    "username": "chrisevans",
+    "followers": 17165757,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2400,
+    "error": null
+  },
+  {
+    "username": "gal_gadot",
+    "followers": 106207456,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2529,
+    "error": null
+  },
+  {
+    "username": "dualipa",
+    "followers": 88681738,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 39832,
+    "error": null
+  },
+  {
+    "username": "shawnmendes",
+    "followers": 70301437,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 39337,
+    "error": null
+  },
+  {
+    "username": "camila_cabello",
+    "followers": 63413794,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 37425,
+    "error": null
+  },
+  {
+    "username": "robertdowneyjr",
+    "followers": 57557923,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2568,
+    "error": null
+  },
+  {
+    "username": "tomholland2013",
+    "followers": 63005425,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2568,
+    "error": null
+  },
+  {
+    "username": "chrishemsworth",
+    "followers": 58869060,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2608,
+    "error": null
+  },
+  {
+    "username": "willsmith",
+    "followers": 69134560,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2447,
+    "error": null
+  },
+  {
+    "username": "davidbeckham",
+    "followers": 88464677,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2455,
+    "error": null
+  },
+  {
+    "username": "snoopdogg",
+    "followers": 88504408,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2474,
+    "error": null
+  },
+  {
+    "username": "shakira",
+    "followers": 95949767,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2575,
+    "error": null
+  },
+  {
+    "username": "gigihadid",
+    "followers": 75795941,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2553,
+    "error": null
+  },
+  {
+    "username": "bellahadid",
+    "followers": 60729826,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2520,
+    "error": null
+  },
+  {
+    "username": "zacefron",
+    "followers": 59435025,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2593,
+    "error": null
+  },
+  {
+    "username": "emmawatson",
+    "followers": 72437539,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2718,
+    "error": null
+  },
+  {
+    "username": "prattprattpratt",
+    "followers": 44175062,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2477,
+    "error": null
+  },
+  {
+    "username": "blakelively",
+    "followers": 41748125,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2509,
+    "error": null
+  },
+  {
+    "username": "ryanreynolds",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 617,
+    "error": "@ryanreynolds not found on Social Blade (404)"
+  },
+  {
+    "username": "rosalia.vt",
+    "followers": 28002438,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2398,
+    "error": null
+  },
+  {
+    "username": "badbunnypr",
+    "followers": 54715096,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2394,
+    "error": null
+  },
+  {
+    "username": "karolg",
+    "followers": 71326165,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2576,
+    "error": null
+  },
+  {
+    "username": "jbalvin",
+    "followers": 50420120,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2427,
+    "error": null
+  },
+  {
+    "username": "maluma",
+    "followers": 64477325,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2555,
+    "error": null
+  },
+  {
+    "username": "anitta",
+    "followers": 62844411,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2591,
+    "error": null
+  },
+  {
+    "username": "dadju",
+    "followers": 9049097,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2571,
+    "error": null
+  },
+  {
+    "username": "gims",
+    "followers": 4690128,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2423,
+    "error": null
+  },
+  {
+    "username": "mrbeast",
+    "followers": 85178089,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2454,
+    "error": null
+  },
+  {
+    "username": "pewdiepie",
+    "followers": 20078785,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2473,
+    "error": null
+  },
+  {
+    "username": "khaby00",
+    "followers": 77620561,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2605,
+    "error": null
+  },
+  {
+    "username": "charlidamelio",
+    "followers": 41108320,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2541,
+    "error": null
+  },
+  {
+    "username": "addisonraee",
+    "followers": 33991163,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2439,
+    "error": null
+  },
+  {
+    "username": "bellapoarch",
+    "followers": 11567937,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 39313,
+    "error": null
+  },
+  {
+    "username": "zachking",
+    "followers": 29283625,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 37411,
+    "error": null
+  },
+  {
+    "username": "hudabeauty",
+    "followers": 57467328,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 37422,
+    "error": null
+  },
+  {
+    "username": "lelepons",
+    "followers": 53674623,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2667,
+    "error": null
+  },
+  {
+    "username": "amandacerny",
+    "followers": 21011810,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2686,
+    "error": null
+  },
+  {
+    "username": "sommerray",
+    "followers": 22757772,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2654,
+    "error": null
+  },
+  {
+    "username": "loganpaul",
+    "followers": 26860064,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2594,
+    "error": null
+  },
+  {
+    "username": "jakepaul",
+    "followers": 28979750,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2550,
+    "error": null
+  },
+  {
+    "username": "ksi",
+    "followers": 13160808,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2655,
+    "error": null
+  },
+  {
+    "username": "cznburak",
+    "followers": 52239447,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2637,
+    "error": null
+  },
+  {
+    "username": "nusret",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 617,
+    "error": "@nusret not found on Social Blade (404)"
+  },
+  {
+    "username": "handemiyy",
+    "followers": 32325049,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2527,
+    "error": null
+  },
+  {
+    "username": "burakozcivit",
+    "followers": 25396197,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 4253,
+    "error": null
+  },
+  {
+    "username": "demetozdemir",
+    "followers": 17389398,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2332,
+    "error": null
+  },
+  {
+    "username": "kerembursin",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 701,
+    "error": "@kerembursin not found on Social Blade (404)"
+  },
+  {
+    "username": "afrasaracoglu",
+    "followers": 10225939,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3996,
+    "error": null
+  },
+  {
+    "username": "mertramazandemir",
+    "followers": 4602029,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2459,
+    "error": null
+  },
+  {
+    "username": "acunilicali",
+    "followers": 13663378,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2514,
+    "error": null
+  },
+  {
+    "username": "hadise",
+    "followers": 14501937,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2409,
+    "error": null
+  },
+  {
+    "username": "muratboz",
+    "followers": 11218344,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2505,
+    "error": null
+  },
+  {
+    "username": "serenayss",
+    "followers": 11054753,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2443,
+    "error": null
+  },
+  {
+    "username": "fahriyeevcen",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 568,
+    "error": "@fahriyeevcen not found on Social Blade (404)"
+  },
+  {
+    "username": "caglarertugrul",
+    "followers": 3385841,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2619,
+    "error": null
+  },
+  {
+    "username": "aytacasmaz",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 612,
+    "error": "@aytacasmaz not found on Social Blade (404)"
+  },
+  {
+    "username": "cemalcanseven",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 712,
+    "error": "@cemalcanseven not found on Social Blade (404)"
+  },
+  {
+    "username": "danlabilic",
+    "followers": 5953860,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 4455,
+    "error": null
+  },
+  {
+    "username": "eceseckin",
+    "followers": 1910946,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 4009,
+    "error": null
+  },
+  {
+    "username": "iremderici",
+    "followers": 8953464,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2932,
+    "error": null
+  },
+  {
+    "username": "eylulonline",
+    "followers": 3409103,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2732,
+    "error": null
+  },
+  {
+    "username": "reynmen",
+    "followers": 6688146,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2694,
+    "error": null
+  },
+  {
+    "username": "berkcan",
+    "followers": 2819844,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 39841,
+    "error": null
+  },
+  {
+    "username": "enesbatur",
+    "followers": 5159664,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 37634,
+    "error": null
+  },
+  {
+    "username": "orkunisitmak",
+    "followers": 3412658,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 37622,
+    "error": null
+  },
+  {
+    "username": "kafalarofficial",
+    "followers": 170911,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2559,
+    "error": null
+  },
+  {
+    "username": "atakanozyurt",
+    "followers": 3692260,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2468,
+    "error": null
+  },
+  {
+    "username": "bilalhanci",
+    "followers": 2499450,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2607,
+    "error": null
+  },
+  {
+    "username": "fatihyasinim",
+    "followers": 2030860,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2534,
+    "error": null
+  },
+  {
+    "username": "ninja",
+    "followers": 11932245,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2507,
+    "error": null
+  },
+  {
+    "username": "shroud",
+    "followers": 1261484,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2507,
+    "error": null
+  }
+]
