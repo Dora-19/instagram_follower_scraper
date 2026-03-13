@@ -51,6 +51,8 @@ def create_provider(config: AppConfig) -> FollowerProvider:
         return SocialBladeProvider(
             delay_seconds=config.socialblade_delay_seconds,
             timeout=config.socialblade_timeout,
+            rest_every=config.socialblade_rest_every,
+            rest_seconds=config.socialblade_rest_seconds,
         )
 
     if config.provider == "serp":
@@ -64,6 +66,8 @@ def create_provider(config: AppConfig) -> FollowerProvider:
             primary=SocialBladeProvider(
                 delay_seconds=config.socialblade_delay_seconds,
                 timeout=config.socialblade_timeout,
+                rest_every=config.socialblade_rest_every,
+                rest_seconds=config.socialblade_rest_seconds,
             ),
             fallback=SerpProvider(
                 api_key=config.serp_api_key,

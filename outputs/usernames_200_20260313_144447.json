@@ -1,0 +1,1570 @@
+[
+  {
+    "username": "openai",
+    "followers": 4178319,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2786,
+    "error": null
+  },
+  {
+    "username": "lexfridman",
+    "followers": 1272739,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1824,
+    "error": null
+  },
+  {
+    "username": "andrewng",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 742,
+    "error": "@andrewng not found on Social Blade (404)"
+  },
+  {
+    "username": "ylecun",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 803,
+    "error": "@ylecun not found on Social Blade (404)"
+  },
+  {
+    "username": "karpathy",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 584,
+    "error": "@karpathy not found on Social Blade (404)"
+  },
+  {
+    "username": "deepmind",
+    "followers": 212,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2213,
+    "error": null
+  },
+  {
+    "username": "github",
+    "followers": 736850,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3652,
+    "error": null
+  },
+  {
+    "username": "python.hub",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 651,
+    "error": "@python.hub not found on Social Blade (404)"
+  },
+  {
+    "username": "reactjsofficial",
+    "followers": 77899,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2548,
+    "error": null
+  },
+  {
+    "username": "javascript.js",
+    "followers": 702533,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3285,
+    "error": null
+  },
+  {
+    "username": "programmerhumor",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 728,
+    "error": "@programmerhumor not found on Social Blade (404)"
+  },
+  {
+    "username": "techcrunch",
+    "followers": 1759185,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2352,
+    "error": null
+  },
+  {
+    "username": "wired",
+    "followers": 2249261,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2165,
+    "error": null
+  },
+  {
+    "username": "verge",
+    "followers": 1676967,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3012,
+    "error": null
+  },
+  {
+    "username": "mkbhd",
+    "followers": 5216482,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3160,
+    "error": null
+  },
+  {
+    "username": "linustech",
+    "followers": 1785829,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1731,
+    "error": null
+  },
+  {
+    "username": "samaltman",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 807,
+    "error": "@samaltman not found on Social Blade (404)"
+  },
+  {
+    "username": "gdb",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 573,
+    "error": "@gdb not found on Social Blade (404)"
+  },
+  {
+    "username": "ilyasut",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 626,
+    "error": "@ilyasut not found on Social Blade (404)"
+  },
+  {
+    "username": "huggingface",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 688,
+    "error": "@huggingface not found on Social Blade (404)"
+  },
+  {
+    "username": "tensorflow",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 577,
+    "error": "@tensorflow not found on Social Blade (404)"
+  },
+  {
+    "username": "pytorch",
+    "followers": 193,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2765,
+    "error": null
+  },
+  {
+    "username": "swiftlang",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 609,
+    "error": "@swiftlang not found on Social Blade (404)"
+  },
+  {
+    "username": "apple",
+    "followers": 36301669,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3046,
+    "error": null
+  },
+  {
+    "username": "google",
+    "followers": 15751936,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2871,
+    "error": null
+  },
+  {
+    "username": "microsoft",
+    "followers": 4547888,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2817,
+    "error": null
+  },
+  {
+    "username": "amazon",
+    "followers": 6255332,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3687,
+    "error": null
+  },
+  {
+    "username": "nvidia",
+    "followers": 2550160,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1551,
+    "error": null
+  },
+  {
+    "username": "intel",
+    "followers": 1838767,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1898,
+    "error": null
+  },
+  {
+    "username": "voguemagazine",
+    "followers": 51690510,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2436,
+    "error": null
+  },
+  {
+    "username": "gq",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 32572,
+    "error": "Social Blade returned HTTP 400 for @gq"
+  },
+  {
+    "username": "balenciaga",
+    "followers": 15121325,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 32953,
+    "error": null
+  },
+  {
+    "username": "prada",
+    "followers": 34058036,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 4062,
+    "error": null
+  },
+  {
+    "username": "jacquemus",
+    "followers": 6817317,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2240,
+    "error": null
+  },
+  {
+    "username": "virgilabloh",
+    "followers": 6332512,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3411,
+    "error": null
+  },
+  {
+    "username": "highsnobiety",
+    "followers": 5453514,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2900,
+    "error": null
+  },
+  {
+    "username": "hypebeast",
+    "followers": 10508631,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2696,
+    "error": null
+  },
+  {
+    "username": "dior",
+    "followers": 47024067,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2045,
+    "error": null
+  },
+  {
+    "username": "gucci",
+    "followers": 51514670,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2750,
+    "error": null
+  },
+  {
+    "username": "louisvuitton",
+    "followers": 56020854,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2626,
+    "error": null
+  },
+  {
+    "username": "chanelofficial",
+    "followers": 59900813,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1892,
+    "error": null
+  },
+  {
+    "username": "burberry",
+    "followers": 20263877,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2254,
+    "error": null
+  },
+  {
+    "username": "ysl",
+    "followers": 13704392,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2705,
+    "error": null
+  },
+  {
+    "username": "fendi",
+    "followers": 21146559,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2269,
+    "error": null
+  },
+  {
+    "username": "versace",
+    "followers": 29359192,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1972,
+    "error": null
+  },
+  {
+    "username": "givenchyofficial",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 712,
+    "error": "@givenchyofficial not found on Social Blade (404)"
+  },
+  {
+    "username": "valentinogaravani",
+    "followers": 483,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3357,
+    "error": null
+  },
+  {
+    "username": "alexandermcqueen",
+    "followers": 12983964,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2250,
+    "error": null
+  },
+  {
+    "username": "bottegaveneta",
+    "followers": 0,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1695,
+    "error": null
+  },
+  {
+    "username": "nike",
+    "followers": 297888533,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2755,
+    "error": null
+  },
+  {
+    "username": "adidasoriginals",
+    "followers": 34234925,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 53767,
+    "error": null
+  },
+  {
+    "username": "zara",
+    "followers": 62287660,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 53745,
+    "error": null
+  },
+  {
+    "username": "hm",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 215,
+    "error": "Social Blade returned HTTP 400 for @hm"
+  },
+  {
+    "username": "mango",
+    "followers": 15803387,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3159,
+    "error": null
+  },
+  {
+    "username": "diet_prada",
+    "followers": 3444208,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3662,
+    "error": null
+  },
+  {
+    "username": "thesartorialist",
+    "followers": 1291838,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2570,
+    "error": null
+  },
+  {
+    "username": "awwwards",
+    "followers": 197386,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2704,
+    "error": null
+  },
+  {
+    "username": "behance",
+    "followers": 1926642,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1656,
+    "error": null
+  },
+  {
+    "username": "dribbble",
+    "followers": 794007,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2351,
+    "error": null
+  },
+  {
+    "username": "nasa",
+    "followers": 99365384,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2406,
+    "error": null
+  },
+  {
+    "username": "spacex",
+    "followers": 17060700,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3133,
+    "error": null
+  },
+  {
+    "username": "neildegrassetyson",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 615,
+    "error": "@neildegrassetyson not found on Social Blade (404)"
+  },
+  {
+    "username": "billnye",
+    "followers": 3584379,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3195,
+    "error": null
+  },
+  {
+    "username": "iss",
+    "followers": 8870240,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2247,
+    "error": null
+  },
+  {
+    "username": "europeanspaceagency",
+    "followers": 3217308,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2088,
+    "error": null
+  },
+  {
+    "username": "hubblespacetelescope",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 603,
+    "error": "@hubblespacetelescope not found on Social Blade (404)"
+  },
+  {
+    "username": "mro",
+    "followers": 1030,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2352,
+    "error": null
+  },
+  {
+    "username": "curiosityrover",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 612,
+    "error": "@curiosityrover not found on Social Blade (404)"
+  },
+  {
+    "username": "perseverance",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 671,
+    "error": "@perseverance not found on Social Blade (404)"
+  },
+  {
+    "username": "mitpics",
+    "followers": 531,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2147,
+    "error": null
+  },
+  {
+    "username": "stanford",
+    "followers": 1376318,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1961,
+    "error": null
+  },
+  {
+    "username": "harvard",
+    "followers": 3033826,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2866,
+    "error": null
+  },
+  {
+    "username": "caltech",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 688,
+    "error": "@caltech not found on Social Blade (404)"
+  },
+  {
+    "username": "natgeoscience",
+    "followers": 9814850,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1556,
+    "error": null
+  },
+  {
+    "username": "physicsworld",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 691,
+    "error": "@physicsworld not found on Social Blade (404)"
+  },
+  {
+    "username": "cern",
+    "followers": 1195063,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1686,
+    "error": null
+  },
+  {
+    "username": "fermilab",
+    "followers": 52877,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2925,
+    "error": null
+  },
+  {
+    "username": "michiokaku",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 647,
+    "error": "@michiokaku not found on Social Blade (404)"
+  },
+  {
+    "username": "brian_cox",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 735,
+    "error": "@brian_cox not found on Social Blade (404)"
+  },
+  {
+    "username": "astrophysicstoday",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 538,
+    "error": "@astrophysicstoday not found on Social Blade (404)"
+  },
+  {
+    "username": "engineering_memes",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 633,
+    "error": "@engineering_memes not found on Social Blade (404)"
+  },
+  {
+    "username": "mechanical.engineering",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 877,
+    "error": "@mechanical.engineering not found on Social Blade (404)"
+  },
+  {
+    "username": "electrical.engineering",
+    "followers": 31688,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 36938,
+    "error": null
+  },
+  {
+    "username": "techinsider",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 35532,
+    "error": "@techinsider not found on Social Blade (404)"
+  },
+  {
+    "username": "sciam",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 621,
+    "error": "@sciam not found on Social Blade (404)"
+  },
+  {
+    "username": "popsci",
+    "followers": 203699,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2420,
+    "error": null
+  },
+  {
+    "username": "discovermag",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 2177,
+    "error": "@discovermag not found on Social Blade (404)"
+  },
+  {
+    "username": "nature.research",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 2709,
+    "error": "@nature.research not found on Social Blade (404)"
+  },
+  {
+    "username": "sciencechannel",
+    "followers": 2687633,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2219,
+    "error": null
+  },
+  {
+    "username": "bostondynamicsofficial",
+    "followers": 892634,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3412,
+    "error": null
+  },
+  {
+    "username": "ieeespectrum",
+    "followers": 37250,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 4208,
+    "error": null
+  },
+  {
+    "username": "arduino.cc",
+    "followers": 835160,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2321,
+    "error": null
+  },
+  {
+    "username": "raspberrypifoundation",
+    "followers": 13397,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2724,
+    "error": null
+  },
+  {
+    "username": "adafruit",
+    "followers": 265223,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2435,
+    "error": null
+  },
+  {
+    "username": "sparkfun",
+    "followers": 83906,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2780,
+    "error": null
+  },
+  {
+    "username": "makerspace",
+    "followers": 4057,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2590,
+    "error": null
+  },
+  {
+    "username": "hackaday",
+    "followers": 176138,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1969,
+    "error": null
+  },
+  {
+    "username": "robotics_news",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 739,
+    "error": "@robotics_news not found on Social Blade (404)"
+  },
+  {
+    "username": "kuka_robotics_us",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 590,
+    "error": "@kuka_robotics_us not found on Social Blade (404)"
+  },
+  {
+    "username": "abb_robotics",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 676,
+    "error": "@abb_robotics not found on Social Blade (404)"
+  },
+  {
+    "username": "fanucamerica",
+    "followers": 57615,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3145,
+    "error": null
+  },
+  {
+    "username": "ubtrobotics",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 729,
+    "error": "@ubtrobotics not found on Social Blade (404)"
+  },
+  {
+    "username": "dji",
+    "followers": 359106,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2429,
+    "error": null
+  },
+  {
+    "username": "skydiohq",
+    "followers": 101991,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3229,
+    "error": null
+  },
+  {
+    "username": "anki",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 471,
+    "error": "@anki not found on Social Blade (404)"
+  },
+  {
+    "username": "sphero",
+    "followers": 56701,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1661,
+    "error": null
+  },
+  {
+    "username": "irobot",
+    "followers": 113366,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1569,
+    "error": null
+  },
+  {
+    "username": "dji_official",
+    "followers": 312606,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2521,
+    "error": null
+  },
+  {
+    "username": "makerbot",
+    "followers": 59939,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3493,
+    "error": null
+  },
+  {
+    "username": "wsj",
+    "followers": 5736264,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2383,
+    "error": null
+  },
+  {
+    "username": "bloombergbusiness",
+    "followers": 6157674,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1974,
+    "error": null
+  },
+  {
+    "username": "forbes",
+    "followers": 7558692,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3128,
+    "error": null
+  },
+  {
+    "username": "economist",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 27743,
+    "error": "@economist not found on Social Blade (404)"
+  },
+  {
+    "username": "ft",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 26142,
+    "error": "Social Blade returned HTTP 400 for @ft"
+  },
+  {
+    "username": "cnbc",
+    "followers": 3052494,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 5117,
+    "error": null
+  },
+  {
+    "username": "businessinsider",
+    "followers": 4996520,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 5070,
+    "error": null
+  },
+  {
+    "username": "entrepreneur",
+    "followers": 4619618,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1576,
+    "error": null
+  },
+  {
+    "username": "incmagazine",
+    "followers": 819054,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3745,
+    "error": null
+  },
+  {
+    "username": "fastcompany",
+    "followers": 757633,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3859,
+    "error": null
+  },
+  {
+    "username": "ycombinator",
+    "followers": 572715,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2617,
+    "error": null
+  },
+  {
+    "username": "techstars",
+    "followers": 84436,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2266,
+    "error": null
+  },
+  {
+    "username": "500startups",
+    "followers": 168,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2693,
+    "error": null
+  },
+  {
+    "username": "sequoia",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 724,
+    "error": "@sequoia not found on Social Blade (404)"
+  },
+  {
+    "username": "a16z",
+    "followers": 118195,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2085,
+    "error": null
+  },
+  {
+    "username": "naval",
+    "followers": 839378,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2785,
+    "error": null
+  },
+  {
+    "username": "richardbranson",
+    "followers": 5046398,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2250,
+    "error": null
+  },
+  {
+    "username": "mcuban",
+    "followers": 2241911,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2795,
+    "error": null
+  },
+  {
+    "username": "barbaracorcoran",
+    "followers": 1291469,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3102,
+    "error": null
+  },
+  {
+    "username": "daymondjohn",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 749,
+    "error": "@daymondjohn not found on Social Blade (404)"
+  },
+  {
+    "username": "garyvaynerchuk",
+    "followers": 146572,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2922,
+    "error": null
+  },
+  {
+    "username": "raydalio",
+    "followers": 1904162,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1726,
+    "error": null
+  },
+  {
+    "username": "warrenbuffettquote",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 555,
+    "error": "@warrenbuffettquote not found on Social Blade (404)"
+  },
+  {
+    "username": "nasdaq",
+    "followers": 623419,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3130,
+    "error": null
+  },
+  {
+    "username": "nyse",
+    "followers": 682516,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2675,
+    "error": null
+  },
+  {
+    "username": "investopedia",
+    "followers": 554239,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2182,
+    "error": null
+  },
+  {
+    "username": "marketwatch",
+    "followers": 570031,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2608,
+    "error": null
+  },
+  {
+    "username": "crypto",
+    "followers": 51298,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2787,
+    "error": null
+  },
+  {
+    "username": "bitcoin",
+    "followers": 18799,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2326,
+    "error": null
+  },
+  {
+    "username": "ethereum",
+    "followers": 30025,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2045,
+    "error": null
+  },
+  {
+    "username": "flea333",
+    "followers": 1932271,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3493,
+    "error": null
+  },
+  {
+    "username": "thundercat",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 698,
+    "error": "@thundercat not found on Social Blade (404)"
+  },
+  {
+    "username": "davie504",
+    "followers": 1604907,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3041,
+    "error": null
+  },
+  {
+    "username": "marcusmiller",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 25595,
+    "error": "@marcusmiller not found on Social Blade (404)"
+  },
+  {
+    "username": "victorwooten",
+    "followers": 534851,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 24897,
+    "error": null
+  },
+  {
+    "username": "redhotchilipeppers",
+    "followers": 128488,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3634,
+    "error": null
+  },
+  {
+    "username": "muse",
+    "followers": 2598037,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 4123,
+    "error": null
+  },
+  {
+    "username": "royalblooduk",
+    "followers": 478607,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2794,
+    "error": null
+  },
+  {
+    "username": "arcticmonkeys",
+    "followers": 7647023,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2244,
+    "error": null
+  },
+  {
+    "username": "thestrokes",
+    "followers": 1560140,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2489,
+    "error": null
+  },
+  {
+    "username": "fender",
+    "followers": 4001738,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3900,
+    "error": null
+  },
+  {
+    "username": "gibsonguitar",
+    "followers": 2984302,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 41263,
+    "error": null
+  },
+  {
+    "username": "ibanez_japan",
+    "followers": 86541,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 54393,
+    "error": null
+  },
+  {
+    "username": "ernieball",
+    "followers": 890646,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3311,
+    "error": null
+  },
+  {
+    "username": "musicman",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 862,
+    "error": "@musicman not found on Social Blade (404)"
+  },
+  {
+    "username": "bassplayermag",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 710,
+    "error": "@bassplayermag not found on Social Blade (404)"
+  },
+  {
+    "username": "notreble",
+    "followers": 41073,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2930,
+    "error": null
+  },
+  {
+    "username": "bassmagazineonline",
+    "followers": 277345,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1829,
+    "error": null
+  },
+  {
+    "username": "weplaybass",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 709,
+    "error": "@weplaybass not found on Social Blade (404)"
+  },
+  {
+    "username": "basstheworld",
+    "followers": 141422,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2893,
+    "error": null
+  },
+  {
+    "username": "charlesberthoud",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 652,
+    "error": "@charlesberthoud not found on Social Blade (404)"
+  },
+  {
+    "username": "mohinidey",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 752,
+    "error": "@mohinidey not found on Social Blade (404)"
+  },
+  {
+    "username": "talwilkenfeld",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 718,
+    "error": "@talwilkenfeld not found on Social Blade (404)"
+  },
+  {
+    "username": "slapkings",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 579,
+    "error": "@slapkings not found on Social Blade (404)"
+  },
+  {
+    "username": "bassforward",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 706,
+    "error": "@bassforward not found on Social Blade (404)"
+  },
+  {
+    "username": "instabass",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 548,
+    "error": "@instabass not found on Social Blade (404)"
+  },
+  {
+    "username": "bassuniversity",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 616,
+    "error": "@bassuniversity not found on Social Blade (404)"
+  },
+  {
+    "username": "patron",
+    "followers": 438574,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2769,
+    "error": null
+  },
+  {
+    "username": "donjuliotequila",
+    "followers": 463155,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2515,
+    "error": null
+  },
+  {
+    "username": "casamigos",
+    "followers": 296004,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2121,
+    "error": null
+  },
+  {
+    "username": "josecuervo",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 653,
+    "error": "@josecuervo not found on Social Blade (404)"
+  },
+  {
+    "username": "1800tequila",
+    "followers": 108507,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1930,
+    "error": null
+  },
+  {
+    "username": "espolontequila",
+    "followers": 66131,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1954,
+    "error": null
+  },
+  {
+    "username": "herradurateq",
+    "followers": 81691,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2512,
+    "error": null
+  },
+  {
+    "username": "milagrotequila",
+    "followers": 23892,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3796,
+    "error": null
+  },
+  {
+    "username": "clazeazul",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 779,
+    "error": "@clazeazul not found on Social Blade (404)"
+  },
+  {
+    "username": "fortaleza_tequila",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 614,
+    "error": "@fortaleza_tequila not found on Social Blade (404)"
+  },
+  {
+    "username": "ocho_tequila",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 921,
+    "error": "@ocho_tequila not found on Social Blade (404)"
+  },
+  {
+    "username": "altos_tequila",
+    "followers": null,
+    "success": false,
+    "attempts": 1,
+    "elapsed_ms": 639,
+    "error": "@altos_tequila not found on Social Blade (404)"
+  },
+  {
+    "username": "aviontequila",
+    "followers": 1422,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2905,
+    "error": null
+  },
+  {
+    "username": "tresagaves",
+    "followers": 38880,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2133,
+    "error": null
+  },
+  {
+    "username": "codigo1530",
+    "followers": 91306,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2300,
+    "error": null
+  },
+  {
+    "username": "cristiano",
+    "followers": 672122086,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2444,
+    "error": null
+  },
+  {
+    "username": "leomessi",
+    "followers": 511817986,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 30512,
+    "error": null
+  },
+  {
+    "username": "selenagomez",
+    "followers": 415346883,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 33816,
+    "error": null
+  },
+  {
+    "username": "kyliejenner",
+    "followers": 390906514,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3238,
+    "error": null
+  },
+  {
+    "username": "therock",
+    "followers": 390617066,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3019,
+    "error": null
+  },
+  {
+    "username": "arianagrande",
+    "followers": 371826534,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 4786,
+    "error": null
+  },
+  {
+    "username": "kimkardashian",
+    "followers": 353272629,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2838,
+    "error": null
+  },
+  {
+    "username": "beyonce",
+    "followers": 307836131,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2207,
+    "error": null
+  },
+  {
+    "username": "natgeo",
+    "followers": 275215170,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3239,
+    "error": null
+  },
+  {
+    "username": "taylorswift",
+    "followers": 280614270,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3603,
+    "error": null
+  },
+  {
+    "username": "davidbeckham",
+    "followers": 88464677,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1965,
+    "error": null
+  },
+  {
+    "username": "snoopdogg",
+    "followers": 88504408,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2358,
+    "error": null
+  },
+  {
+    "username": "zendaya",
+    "followers": 176192144,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 1889,
+    "error": null
+  },
+  {
+    "username": "marvel",
+    "followers": 64264052,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 2328,
+    "error": null
+  },
+  {
+    "username": "natgeotravel",
+    "followers": 45528544,
+    "success": true,
+    "attempts": 1,
+    "elapsed_ms": 3877,
+    "error": null
+  }
+]

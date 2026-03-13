@@ -24,6 +24,8 @@ class AppConfig:
     # Social Blade provider
     socialblade_delay_seconds: float = 2.0
     socialblade_timeout: int = 15
+    socialblade_rest_every: int = 50
+    socialblade_rest_seconds: float = 45.0
     # SERP (SerpAPI) fallback provider
     serp_api_key: str = ""
     serp_timeout: int = 10
@@ -53,6 +55,8 @@ class AppConfig:
             brightdata_storage_state=os.getenv("BRIGHTDATA_STORAGE_STATE", ".brightdata_state.json"),
             socialblade_delay_seconds=float(os.getenv("SOCIALBLADE_DELAY_SECONDS", "2.0")),
             socialblade_timeout=int(os.getenv("SOCIALBLADE_TIMEOUT", "15")),
+            socialblade_rest_every=int(os.getenv("SOCIALBLADE_REST_EVERY", "50")),
+            socialblade_rest_seconds=float(os.getenv("SOCIALBLADE_REST_SECONDS", "45.0")),
             serp_api_key=os.getenv("SERP_API_KEY", ""),
             serp_timeout=int(os.getenv("SERP_TIMEOUT", "10")),
         )

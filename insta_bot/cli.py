@@ -4,7 +4,16 @@ import argparse
 import asyncio
 import json
 from dataclasses import replace
+from datetime import datetime
 from pathlib import Path
+
+INPUTS_DIR = Path("inputs")
+OUTPUTS_DIR = Path("outputs")
+
+
+def _default_output(input_file: Path) -> Path:
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    return OUTPUTS_DIR / f"{input_file.stem}_{timestamp}.json"
 
 from insta_bot.config import AppConfig
 from insta_bot.errors import AppError
@@ -29,15 +38,15 @@ def build_parser() -> argparse.ArgumentParser:
     batch = subparsers.add_parser("batch", help="Fetch follower counts for many usernames")
     batch.add_argument(
         "--input",
-        required=True,
         type=Path,
-        help="Text file with one username per line",
+        default=None,
+        help="Text file with one username per line (default: inputs/*.txt if only one file exists)",
     )
     batch.add_argument(
         "--output",
         type=Path,
-        default=Path("batch_results.json"),
-        help="Output JSON file path",
+        default=None,
+        help="Output JSON path (default: outputs/<input_stem>_<timestamp>.json)",
     )
 
     subparsers.add_parser(
@@ -126,7 +135,21 @@ def main() -> int:
             return asyncio.run(run_single(args.username, config))
 
         if args.command == "batch":
-            return asyncio.run(run_batch_mode(args.input, args.output, config))
+            input_file = args.input
+            if input_file is None:
+                txt_files = list(INPUTS_DIR.glob("*.txt"))
+                if len(txt_files) == 1:
+                    input_file = txt_files[0]
+                elif len(txt_files) == 0:
+                    print(f"ERROR: no .txt files found in {INPUTS_DIR}/")
+                    return 1
+                else:
+                    names = ", ".join(f.name for f in txt_files)
+                    print(f"ERROR: multiple input files found — specify one with --input: {names}")
+                    return 1
+            output_file = args.output or _default_output(input_file)
+            OUTPUTS_DIR.mkdir(exist_ok=True)
+            return asyncio.run(run_batch_mode(input_file, output_file, config))
 
         if args.command == "browserbase-login":
             provider = BrowserbaseProvider(

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import random
 import re
 import time
 
@@ -63,12 +64,27 @@ def _extract_count(html: str) -> int | None:
 
 
 class SocialBladeProvider(FollowerProvider):
-    def __init__(self, delay_seconds: float = 2.0, timeout: int = 15) -> None:
+    def __init__(
+        self,
+        delay_seconds: float = 2.0,
+        timeout: int = 15,
+        rest_every: int = 50,
+        rest_seconds: float = 45.0,
+    ) -> None:
         self._delay = delay_seconds
         self._timeout = timeout
+        self._rest_every = rest_every      # take a long pause every N requests
+        self._rest_seconds = rest_seconds  # duration of that pause
+        self._request_count = 0
         self._session = requests.Session(impersonate=_IMPERSONATE)
 
     def get_follower_count(self, username: str) -> int:
+        # Long rest every N requests to avoid sustained-volume detection.
+        if self._request_count > 0 and self._request_count % self._rest_every == 0:
+            rest = random.uniform(self._rest_seconds * 0.8, self._rest_seconds * 1.2)
+            print(f"[socialblade] Taking a {rest:.0f}s rest after {self._request_count} requests...")
+            time.sleep(rest)
+
         url = f"https://socialblade.com/instagram/user/{username.lower()}"
         try:
             resp = self._session.get(url, timeout=self._timeout)
@@ -76,6 +92,8 @@ class SocialBladeProvider(FollowerProvider):
             raise ProviderError(
                 f"Social Blade request failed for @{username}: {exc}"
             ) from exc
+
+        self._request_count += 1
 
         if resp.status_code == 404:
             raise ProviderError(f"@{username} not found on Social Blade (404)")
@@ -91,7 +109,9 @@ class SocialBladeProvider(FollowerProvider):
                 "The page may be behind a Cloudflare challenge or the layout changed."
             )
 
-        time.sleep(self._delay)
+        # Jittered delay: ±50% of base so requests don't arrive at robotic intervals.
+        jitter = random.uniform(self._delay * 0.5, self._delay * 1.5)
+        time.sleep(jitter)
         return count
 
     def close(self) -> None:
